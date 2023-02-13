@@ -1,3 +1,12 @@
+
+CloudFront URL : https://d81gdxuznewtz.cloudfront.net/
+
+S3-website URL:  http://aws-course-second-app.s3-website-us-east-1.amazonaws.com/
+
+
+
+
+
 # Shop Angular Cloudfront
 
 Angular version: ~12.
