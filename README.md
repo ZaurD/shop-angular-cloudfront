@@ -1,7 +1,16 @@
 
-CloudFront URL : https://d81gdxuznewtz.cloudfront.net/
+CloudFront URL : https://d81gdxuznewtz.cloudfront.net/ At the moment I have problem with CloudFront. My account must be verified. I got this message: Your account must be verified before you can add new CloudFront resources. To verify your account, please contact AWS Support (https://console.aws.amazon.com/support/home#/) and include this error message.
 
 S3-website URL:  http://aws-course-second-app.s3-website-us-east-1.amazonaws.com/
+
+
+I created new S3-website without CloudFront URL: http://shopbucketapp.s3-website-eu-west-1.amazonaws.com/. You can check it.
+
+
+
+
+
+
 
 
 
