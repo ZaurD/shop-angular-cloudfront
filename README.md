@@ -1,3 +1,15 @@
+
+CloudFront URL : https://d10oh2u1zxq3h3.cloudfront.net/
+
+S3-website URL:  http://zaur-second-shop-app.s3-website-eu-west-1.amazonaws.com/
+
+
+
+
+
+
+
+
 # Shop Angular Cloudfront
 
 Angular version: ~12.
