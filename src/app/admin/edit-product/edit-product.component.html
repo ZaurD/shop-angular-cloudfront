@@ -19,6 +19,20 @@
 
       <div class="col-12">
         <mat-form-field class="w-100">
+          <mat-label>Author</mat-label>
+          <input matInput formControlName="author" />
+          <mat-error
+            *ngIf="
+              descriptionCtrl.touched && descriptionCtrl.hasError('required')
+            "
+          >
+            Author is required
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="col-12">
+        <mat-form-field class="w-100">
           <mat-label>Description</mat-label>
           <textarea matInput formControlName="description"></textarea>
           <mat-error
