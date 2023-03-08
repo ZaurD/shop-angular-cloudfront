@@ -9,7 +9,7 @@ export const environment: Config = {
   apiEndpoints: {
     product: 'https://pj8ox14gw2.execute-api.eu-west-1.amazonaws.com/dev/',
     order: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-    import: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    import: 'https://al3urtk180.execute-api.eu-west-1.amazonaws.com/dev',
     cart: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
     //Implement a Product model on FE side as a joined model of product and stock by productId.
     //BE: Separate tables in DynamoDB
@@ -19,7 +19,7 @@ export const environment: Config = {
   apiEndpointsEnabled: {
     product: true,
     order: false,
-    import: false,
+    import: true,
     bff: true,
     cart: false,
   },
