@@ -44,6 +44,9 @@ export class EditProductComponent implements OnInit, OnDestroy {
   get titleCtrl(): AbstractControl {
     return this.form.get('title') as AbstractControl;
   }
+  get authorCtrl(): AbstractControl {
+    return this.form.get('author') as AbstractControl;
+  }
 
   private readonly onDestroy$: Subject<void> = new Subject();
 
@@ -56,6 +59,7 @@ export class EditProductComponent implements OnInit, OnDestroy {
   ) {
     this.form = this.fb.group({
       title: ['', Validators.required],
+      author: ['', Validators.required],
       description: ['', Validators.required],
       price: ['', Validators.required],
       count: ['', Validators.required],

@@ -7,16 +7,19 @@ import { Config } from './config.interface';
 export const environment: Config = {
   production: false,
   apiEndpoints: {
-    product: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    product: 'https://pj8ox14gw2.execute-api.eu-west-1.amazonaws.com/dev/',
     order: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-    import: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-    bff: 'https://pj8ox14gw2.execute-api.eu-west-1.amazonaws.com/dev/',
+    import: 'https://al3urtk180.execute-api.eu-west-1.amazonaws.com/dev',
     cart: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    //Implement a Product model on FE side as a joined model of product and stock by productId.
+    //BE: Separate tables in DynamoDB
+    //FE: One product model as a result of BE models join (product and it's stock)
+    bff: 'https://pj8ox14gw2.execute-api.eu-west-1.amazonaws.com/dev/',
   },
   apiEndpointsEnabled: {
-    product: false,
+    product: true,
     order: false,
-    import: false,
+    import: true,
     bff: true,
     cart: false,
   },
